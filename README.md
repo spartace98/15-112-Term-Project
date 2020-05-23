@@ -9,6 +9,8 @@ However to push the limits of this feedback loop, I wrote a much more complex ga
 
 The game design also allowed me to work with camera calibration, which is an important step required for more accurate detection of objects.
 
+[Click here to learn how it works!](https://youtu.be/h9V9XSQQWD8)
+
 # Details of the Game
 My name of the game is Arcade Racer. 
 
@@ -24,6 +26,7 @@ The roads and the cars are completely randomly generated. Everytime the player s
 3. Run the script in Game Engine folder titled fullGameMode.py. This file contains all the packages required to start and play the game
 
 *ONLY IF YOU WANT TO CALIBRATE YOUR OWN CAMERA*
+
 Note that different cameras have different camera calibration matrix. The user can calibrate his camera as follows. 
 1. In the Camera Calibration Folder, print the checkerboard image
 2. Take 5 or more photos using the same (computer) camera you will be using to play the game. Some example images are in the calibration_images folder.
